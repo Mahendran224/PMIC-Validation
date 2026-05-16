@@ -43,27 +43,11 @@ To develop a measurement module for PMIC validation that:
 
 - Live waveform display
 - Continuous waveform updates
-- Voltage measurement
+- Voltage,slew rate and tramp measurement
 - Rising/Falling edge detection
 - Automatic event capture
 - Snapshot capture
 - Automated PDF report generation
-- GUI-based visualization
+- GUI-based validation
 
----
-
-## Libraries Used
-
-| Section | Libraries Used | Working in Project |
-|---|---|---|
-| Instrument Communication | pyvisa | Connects Python to oscilloscope and transfers waveform data |
-| System / File Handling | sys, os, io, datetime, time | Handles file management, timestamps, delays, and program execution |
-| Numerical Processing | numpy | Performs waveform calculations and signal processing |
-| GUI Creation | PyQt5.QtWidgets | Builds the graphical user interface |
-| GUI Graphics / Images | PyQt5.QtGui, QImage | Displays images and captured snapshots |
-| GUI Control / Timers | PyQt5.QtCore | Updates live waveform periodically |
-| Waveform Plotting | matplotlib | Displays live waveform plots |
-| Snapshot & PDF Generation | FigureCanvasAgg, reportlab | Captures snapshots and generates PDF reports |
-
----
 
