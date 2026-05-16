@@ -67,15 +67,3 @@ To develop a measurement module for PMIC validation that:
 
 ---
 
-## Project Structure
-
-```text
-PMIC-Validation_GUI/
-│
-├── Datasheets/
-├── Validation_report_from_GUI/
-├── images/
-├── scope_captures/
-├── Hardware_connection.png
-├── final code_1.py
-└── README.md
