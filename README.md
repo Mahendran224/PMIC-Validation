@@ -41,16 +41,9 @@ To develop a measurement module for PMIC validation that:
 
 ## Features
 
-- Live waveform display
-- Continuous waveform updates
-- Voltage,slew rate and tramp measurement
-- Rising/Falling edge detection
-- Automatic event capture
-- Snapshot capture
-- Automated PDF report generation
-- GUI-based validation
+Live waveform display, Continuous waveform updates, Voltage,slew rate and tramp measurement, Rising/Falling edge detection, Automatic event capture, Snapshot capture, Automated PDF report generation, GUI-based validation
 
-## Benefits and Industrial Relevance
+## Benefits
 
 The PMIC Validation GUI is developed to simplify and accelerate oscilloscope-based PMIC validation activities by integrating waveform acquisition, visualization, measurement, snapshot capture, and report generation within a single software platform. In traditional validation workflows, engineers often perform waveform monitoring, manual measurements, image capturing, and documentation separately, which increases validation time and introduces the possibility of inconsistencies during repetitive testing procedures.
 
